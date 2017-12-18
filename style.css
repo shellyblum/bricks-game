@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("http://media.treehugger.com/assets/images/2016/05/bricks.jpg.662x0_q70_crop-scale.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+canvas {
+    background: #eee;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid dimgray;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    margin: 0 auto;
+    font-size: 4em;
+}
+
+#game{
+    margin: 1em auto;
+}
+
+#start {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: cursive;
+    border-radius: 10px;
+    width: 8em;
+    background-color: ivory;
+    cursor: pointer;
+}
